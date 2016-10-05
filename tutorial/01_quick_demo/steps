@@ -1,0 +1,4 @@
+$ git clone https://github.com/lwmqn/lwmqn-demo.git
+$ cd lwmqn-demo
+$ npm install
+$ npm start
