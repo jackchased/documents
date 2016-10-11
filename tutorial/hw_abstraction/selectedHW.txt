@@ -1,0 +1,9 @@
+(1) led
+(2) on/off switch
+(3) button
+(4) temperature sensor
+(5) humidity sensor
+(6) pir sensor
+(7) light control
+(8) buzzer
+
