@@ -135,7 +135,7 @@ node smartobj.js
 
 ### 8. Use SmartObject Methods in Driver
 
-In our example, the led is an Object Instance `'lightCtrl'`. We encourage users to operate their hardware with `so` read/write methods if the hardware is an Object Instance. By this way, `so` can find out the resource changes to report to the server (if creating machines with `mqtt-node` or `coap-node` modules). If the hardware is not a smart object but simply a onboard thing, like a led indicator, then it is fine to write a driver we've seen in step 6.
+In our example, the led is an Object Instance `'lightCtrl'`. We encourage users to operate their hardware with `so` read/write methods if the hardware is an Object Instance. By this way, `so` can find out the resource changes to report to the server if creating machines with `mqtt-node` or `coap-node` modules. If the hardware is not a smart object but simply a onboard thing, like a led indicator, then it is fine to write a driver we've seen in step 6.
 
 ```js
 // Add our led blink driver to hal
